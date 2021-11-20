@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+}
+body {
+	background-color: #F8F8FF;
+	font-family: sans-serif;
+	height: 100vh;
+}
+nav {
+	background-color: #fff;
+	border-bottom: 5px solid #6f6f6f;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.nav-list {
+	padding: 1rem 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-item {
+	margin-right: 2rem;
+	font-weight: uppercase;
+	font-weight: 600;
+	padding: 10px;
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+a{
+	position: relative;
+	color: #4e4e4e ;
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	padding:0 10px;
+}
+a:after {
+	content:"";
+	position: absolute;
+	background-color: black;
+	height: 3px;
+	width: 0;
+	left: 0;
+	bottom: -10px;
+	transition: 0.3s;
+}
+a:hover{
+	color: black;
+}
+a:hover:after {
+	width: 100%;
+}
+
+.nav-item a {
+
+	letter-spacing: 1.2px;
+}
+
+header {
+	background:url('img-css/test.jpg');
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 20rem;
+	background-size: cover;
+	color:#fff;
+	padding:40px;
+	border-bottom: 5px solid #6f6f6f;
+	/*background-color: #595656;*/
+}
+header h1 {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 50px;
+}
+header h3 {
+	margin-top: 25px;
+	font-size: 20px;
+	text-align: center;
+}
+
+@media screen and (max-width: 680px){
+	nav .nav-list{
+		margin-left:0px;
+		margin-bottom: 20px;
+	}
+}
+
+.content {
+	margin-top: 50px;
+}
+.nav-item:first-child {
+	margin-right:auto;
+	margin-left: auto; 
+}
+.div-home {
+	background-color: #F5F5F5;
+	text-align: center;
+}
+.div-home-title{
+	display: inline-flex;
+	width: 60%;
+}
+.div-home-title-img {
+	width: 100%;
+	margin:none;
+}
+.div-home-title-text h1 { 
+	height: 100%;
+	width: 100%;	
+}
+.img1 {
+	max-width: 90%;
+	max-height: 100%;
+
+}
