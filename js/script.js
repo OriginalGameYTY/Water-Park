@@ -1,0 +1,1 @@
+// alert('Pour vous proposer du contenu adapté à vos goûts, ce site utilise des cookies.');
