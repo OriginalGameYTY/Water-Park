@@ -32,6 +32,7 @@ nav {
 	font-weight: 600;
 	padding: 10px;
 }
+
 @keyframes fadeIn {
 	0% {
 		opacity: 0;
@@ -40,8 +41,7 @@ nav {
 		opacity: 1;
 	}
 }
-
-a{
+nav a{
 	position: relative;
 	color: #4e4e4e ;
 	text-decoration: none;
@@ -49,7 +49,7 @@ a{
 	letter-spacing: 0.5px;
 	padding:0 10px;
 }
-a:after {
+nav a:after {
 	content:"";
 	position: absolute;
 	background-color: black;
@@ -103,6 +103,7 @@ header h3 {
 }
 .content {
 	margin-top: 50px;
+	align-items: center;
 }
 .nav-item:first-child {
 	margin-right:auto;
@@ -110,16 +111,64 @@ header h3 {
 }
 .div-home {
 	text-align: center;
-	width: 100%;
 }	
 .div-situation {
-	display: flex;
+	display: table;
 	margin-top: 50px;
-	width: 90%;
+	width: 70%;
+	height: 500px;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 10em;
 }
-.div-situation h4 {
-	text-align: center;
-	width: 100%;
-	height: 10%; 
-	margin-right: none;
+.div-situation h3 {
+	display: table-cell;
+	vertical-align: middle;
+	animation: apparition-gauche 1s ease-out;
+}
+.div-situation img {
+	display: table-cell;
+	vertical-align: middle;
+	box-shadow: 10px 5px 5px grey;
+}
+.lien-map {
+	color: grey ;
+	text-decoration: none;
+}
+.lien-map:hover {
+	color: #59458F;
+	border-bottom: none;
+}
+
+.div-plan {
+	display: table;
+	margin-top: 50px;
+	width: 45%;
+	height: 250px;
+	margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 10em;
+}
+.div-plan h3 {
+	display: table-cell;
+	vertical-align: middle;
+}
+.div-plan img {
+	display: table-cell;
+	vertical-align: middle;
+	box-shadow: 10px 5px 5px grey;
+	margin-right:none;
+}
+.reveal {
+	opacity: 0;
+	transform: translateY(-30px);
+}
+.reveal-visible {
+	opacity: 1;
+	transform: translateY(0px);
+	transition: .3s;
 }
