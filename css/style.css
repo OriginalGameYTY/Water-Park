@@ -163,12 +163,3 @@ header h3 {
 	box-shadow: 10px 5px 5px grey;
 	margin-right:none;
 }
-.reveal {
-	opacity: 0;
-	transform: translateY(-30px);
-}
-.reveal-visible {
-	opacity: 1;
-	transform: translateY(0px);
-	transition: .3s;
-}
