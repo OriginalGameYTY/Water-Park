@@ -336,8 +336,28 @@ header h3 {
 	margin-top: 15px;
 	display: inline-block;
 	text-decoration:none;
-	font-weight: 700
+	font-weight: 700;
 }
+
+.div-situation .more-a {
+	position: relative;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background: #fff;
+	color: #111;
+	margin-top: 15px;
+	display: inline-block;
+	text-decoration:none;
+	font-weight: 700;
+	transition: all 1s ease;
+}
+.div-situation .more-a:hover {
+	border: solid 1px #111;
+	transition: all 1s ease;
+}
+
+
 @media (max: 991px){
 	.card1{
 		width: auto;
