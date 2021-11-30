@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:ital,wght@1,300;1,400&display=swap');
 
 * {
 	padding: 0;
@@ -128,7 +129,11 @@ header h3 {
 }
 .div-home {
 	text-align: center;
-}	
+}
+.home2 {
+	border-top: 1px solid #6f6f6f;
+	padding-top:30px;
+}		
 .div-situation {
 	display: table;
 	margin-top: 50px;
@@ -379,4 +384,31 @@ header h3 {
 		left: 50%;
 		height: 320px;
 	}
+}
+.activités-menu {
+	display:  table;
+	width: 100%;
+}
+
+.activités-menu-2,
+.activités-menu-1 {
+	display: table-cell;
+	width: 50%;
+	text-align: center;
+	vertical-align: center;
+}
+
+.activités-menu img {
+	max-width: 500px;
+	min-width: 500px;
+	margin: 20px;
+	transition: .4s ease;
+}
+.activités-menu img:hover {
+	box-shadow: 10px 5px 5px grey;
+	width: 530px;
+}
+.activités-menu p{
+	font-family: 'Roboto', sans-serif;
+	border-bottom: 40px;
 }
