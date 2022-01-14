@@ -1,43 +1,5 @@
 # Water-Park
 C'est un super site.
 https://camggtu4.github.io/Water-Park/
-Vraiment c'est hyper important de lire la suite
-
-.
-.
-.
-;
-;
-;
-;
-;
-;
-;
-;
-;;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-
-;
-;
-;
-;
-;
-;
-;
-;
-;
+Vraiment c'est hyper important de lire la suite sinon vous serez nul en allemand !!
 Voilà
